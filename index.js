@@ -6,7 +6,7 @@ const port = 3000; //port 번호
 const mongoose = require("mongoose");
 mongoose
   .connect(
-    "mongodb+srv://Seokyung:b8s6j3@boilerplate.mvc9s.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
